@@ -12,7 +12,7 @@ export class HeaderNavComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  btnHeader: string = 'GET QUOTE';
+  btnHeader: string = 'Admin';
   btnHeaderStyle: string = 'display: flex; justify-content: end;';
   btnHeaderType:  string ='button';
   label : string[]=['Case Study','Services','Blogs','Technology','Contact Us'];

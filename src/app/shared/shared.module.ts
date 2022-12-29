@@ -5,6 +5,7 @@ import { SharedRoutingModule } from './shared-routing.module';
 import { HeaderNavComponent } from './header-nav/header-nav.component';
 import { ServicesComponent } from './services/services.component';
 import { HeaderContentComponent } from './header-content/header-content.component';
+import { AdminModule } from '../feature/admin/admin.module';
 
 
 @NgModule({
@@ -15,11 +16,13 @@ import { HeaderContentComponent } from './header-content/header-content.componen
   ],
   imports: [
     CommonModule,
-    SharedRoutingModule
+    SharedRoutingModule,
+    AdminModule
   ],
   exports:[
     HeaderNavComponent,
-    ServicesComponent
+    ServicesComponent,
+    AdminModule
   ]
 })
 export class SharedModule { }

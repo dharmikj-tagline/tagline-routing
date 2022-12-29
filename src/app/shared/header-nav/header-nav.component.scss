@@ -24,7 +24,7 @@ ul {
     right: 0;
     flex-wrap: wrap;
     background-color: white;
-    
+    box-shadow: 2px 3px 10px gray;
 }
 
 .header nav img {
@@ -62,11 +62,11 @@ ul .btnget {
 
 nav ul button {
     margin-top: 20px;
+    font-size: 20px;
     height: 45px;
-    padding: 17px 28px;
+    padding: 15px 43px;
     border: none;
     border-radius: 5px;
-    /* background-color: rgba(178, 28, 28, 0.593); */
     background: rgba(217, 97, 34, .3);
     color: #da6427;
     min-width: 20%;

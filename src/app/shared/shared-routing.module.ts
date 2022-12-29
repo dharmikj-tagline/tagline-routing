@@ -13,7 +13,10 @@ const routes: Routes = [
     path:'services',
     component : ServicesComponent
   },
-  
+  {
+    path:'getquote',
+    loadChildren : ()=> import ('./../feature/admin/admin.module').then(m=>m.AdminModule)
+  },
   {
     path:'**',
     component : HeaderNavComponent
