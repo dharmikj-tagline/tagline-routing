@@ -1,0 +1,31 @@
+<div class="topbar">
+    <div class="header">
+        <nav>
+            <ul>
+                <img [src]="taglineImg">
+
+                <li>
+                    <a routerLink="/technologies">{{ label[0] }}</a>
+                </li>
+                <li>
+                    <a routerLink="/technologies">{{ label[1] }}</a>
+                </li>
+                <li>
+                    <a routerLink="/technologies">{{ label[2] }}</a>
+                </li>
+                <li>
+                    <a routerLink="/technologies">{{ label[3] }}</a>
+                </li>
+                <li>
+                    <a routerLink="/technologies">{{ label[4] }}</a>
+                </li>
+                <div class="btnget">
+                    <button [type]="btnHeaderType" [style]="btnHeaderStyle">
+                        {{ btnHeader }}
+                    </button>
+                </div>
+            </ul>
+        </nav>
+    </div>
+</div>
+<router-outlet></router-outlet>
