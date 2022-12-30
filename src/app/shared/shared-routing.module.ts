@@ -1,28 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeaderContentComponent } from './header-content/header-content.component';
 import { HeaderNavComponent } from './header-nav/header-nav.component';
-import { ServicesComponent } from './services/services.component';
 
-const routes: Routes = [
-  {
-    path:'',
-    component : HeaderContentComponent
-  },
-  {
-    path:'services',
-    component : ServicesComponent
-  },
-  {
-    path:'getquote',
-    loadChildren : ()=> import ('./../feature/admin/admin.module').then(m=>m.AdminModule)
-  },
-  {
-    path:'**',
-    component : HeaderNavComponent
-  },
-
-];
+const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

@@ -1,0 +1,33 @@
+.fullcontainer{
+    height: 70vh;
+    background-image: linear-gradient(to right, rgba(166, 9, 9, 0.363) , rgba(175, 175, 3, 0.828));
+}
+
+h1{
+    color: red;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 50px;
+}
+
+ul  {
+    display: flex;
+    margin-top: 30px;
+    background-color: rgb(64, 63, 63);
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul li a:hover{
+    color: red;
+}

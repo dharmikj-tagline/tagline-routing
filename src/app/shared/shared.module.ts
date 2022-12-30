@@ -1,28 +1,25 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { SharedRoutingModule } from './shared-routing.module';
 import { HeaderNavComponent } from './header-nav/header-nav.component';
-import { ServicesComponent } from './services/services.component';
-import { HeaderContentComponent } from './header-content/header-content.component';
 import { AdminModule } from '../feature/admin/admin.module';
+import { UserModule } from '../feature/user/user.module';
 
 
 @NgModule({
   declarations: [
     HeaderNavComponent,
-    ServicesComponent,
-    HeaderContentComponent
   ],
   imports: [
     CommonModule,
     SharedRoutingModule,
-    AdminModule
+    AdminModule,
+    UserModule
   ],
   exports:[
     HeaderNavComponent,
-    ServicesComponent,
-    AdminModule
+    AdminModule,
+    UserModule
   ]
 })
 export class SharedModule { }

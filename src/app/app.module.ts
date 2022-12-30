@@ -3,12 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderNavComponent } from './shared/header-nav/header-nav.component';
+import { HeaderContentComponent } from './feature/header-content/header-content.component';
+import { ServicesComponent } from './feature/services/services.component';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ServicesComponent,
+    HeaderContentComponent
   ],
   imports: [
     BrowserModule,

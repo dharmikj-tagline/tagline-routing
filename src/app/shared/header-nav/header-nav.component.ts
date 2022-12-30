@@ -15,7 +15,8 @@ export class HeaderNavComponent implements OnInit {
   btnHeader: string = 'Admin';
   btnHeaderStyle: string = 'display: flex; justify-content: end;';
   btnHeaderType:  string ='button';
-  label : string[]=['Case Study','Services','Blogs','Technology','Contact Us'];
+  label : string[]=['Case Study','Services','Blogs','Technology','Users'];
   taglineImg: string = '../assets/../assets/images/tagline.png';
 
 }
+ 

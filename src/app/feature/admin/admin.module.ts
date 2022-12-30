@@ -17,4 +17,5 @@ import { AdminComponent } from './admin.component';
     AdminComponent
   ],
 })
+
 export class AdminModule { }
