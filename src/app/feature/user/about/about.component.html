@@ -1,0 +1,18 @@
+<p class="text-success my-5">This is the About Page of User.</p>
+<table class="table text-center">
+    <thead>
+        <tr>
+            <th>{{ property[0] }}</th>
+            <th>{{ property[1] }}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prop of about">
+            <td>{{ prop.name }}</td>
+            <td>{{ prop.profileUpdated }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<button class="btn btn-primary">Edit Profile</button>&nbsp;
+<button class="btn btn-danger">Cancel</button>

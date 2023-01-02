@@ -20,6 +20,6 @@ export class HeaderContentComponent implements OnInit {
     'With the help of Innovation and Technology, We give you the power to <br> change the world with your ideas.';
   headeSchedualMeetBtnType: string = 'button';
   headeSchedualMeetBtnCount: string = 'Schedule a meeting';
-  headerDownImages: string = '../assets/images/images.png';
+  headerDownImages: string = '../../../assets/images/images.png';
 
 }

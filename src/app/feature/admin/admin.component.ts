@@ -13,4 +13,7 @@ export class AdminComponent implements OnInit {
     console.log("Admin Component");    
   }
 
+  adminPage : string ='Admin Page';
+  para : string = 'You can Add , Update , Delete  User Detail';
+
 }

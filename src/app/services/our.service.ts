@@ -82,8 +82,8 @@ export class OurService {
       name:'Vishal',
       cource:'BCA',
       address : {
-        city : 'Surat',
-        state : 'Gujrat'
+        city : 'Mumbai',
+        state : 'Maharashtra'
       }
     },
     {

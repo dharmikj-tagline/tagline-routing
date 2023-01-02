@@ -5,22 +5,22 @@
                 <img [src]="taglineImg">
 
                 <li>
-                    <a routerLink="/">{{ label[0] }}</a>
+                    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">{{ label[0] }}</a>
                 </li>
                 <li>
-                    <a routerLink="/services">{{ label[1] }}</a>
+                    <a routerLink="/services" routerLinkActive="active">{{ label[1] }}</a>
+                </li>
+                <!-- <li>
+                    <a routerLink="/" routerLinkActive="active">{{ label[2] }}</a>
+                </li> -->
+                <li>
+                    <a routerLink="/dynamic" routerLinkActive="active">{{ label[3] }}</a>
                 </li>
                 <li>
-                    <a routerLink="/">{{ label[2] }}</a>
+                    <a routerLink="/data-show" routerLinkActive="active">{{ label[4] }}</a>
                 </li>
                 <li>
-                    <a routerLink="/dynamic">{{ label[3] }}</a>
-                </li>
-                <li>
-                    <a routerLink="/data-show">{{ label[4] }}</a>
-                </li>
-                <li>
-                    <a routerLink="/user">{{ label[5] }}</a>
+                    <a routerLink="/user" routerLinkActive="active" >{{ label[5] }}</a>
                 </li>
                 <div class="btnget">
                     <button routerLink="/admin" type="button" [style]="btnHeaderStyle">

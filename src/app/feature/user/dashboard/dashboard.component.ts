@@ -14,4 +14,7 @@ export class DashboardComponent implements OnInit {
     
   }
 
+  head : string ='User Dashboard';
+  label : string[]=['Home','Profile','About Us'];
+
 }
