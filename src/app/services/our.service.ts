@@ -66,4 +66,34 @@ export class OurService {
       button: 'Contact Us',
     },
   ];
+
+  users =[
+    {
+      id:1,
+      name:'Dharmik',
+      cource:'BCA',
+      address : {
+        city : 'Surat',
+        state : 'Gujrat'
+      }
+    },
+    {
+      id:2,
+      name:'Vishal',
+      cource:'BCA',
+      address : {
+        city : 'Surat',
+        state : 'Gujrat'
+      }
+    },
+    {
+      id:3,
+      name:'Pratik',
+      cource:'Computer',
+      address : {
+        city : 'Surat',
+        state : 'Gujrat'
+      }
+    }
+  ];
 }

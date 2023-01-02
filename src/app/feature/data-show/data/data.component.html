@@ -1,0 +1,16 @@
+<table class="table text-center">
+    <thead>
+        <tr class="p-3">
+            <th>Name </th>
+            <th>Address (State) </th>
+            <th>Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of users">
+            <td>{{ data.name }}</td>
+            <td>{{ data.address.state }}</td>
+            <td><button class="btn btn-primary" (click)="visitUserProfile(data.id)">View Detail</button></td>
+        </tr>
+    </tbody>
+</table>
